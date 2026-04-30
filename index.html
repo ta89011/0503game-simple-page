@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>0503小組破冰題目</title>
+</head>
+<body>
+	<h2 id="content_bar"></h2>
+	<script>
+		var alldata = ["諾亞方舟大洪水",
+			"摩西分紅海", "以利亞升天", "大衛對戰哥利亞", "蛇誘騙夏娃吃分別善惡樹果子", "最後的晚餐",
+			"五餅二魚餵飽五千人", "耶穌使水變成美酒", "耶穌使拉撒路復活", "耶穌戴荊棘冠冕騎驢進城", "亞伯拉罕獻以撒",
+			"耶穌在馬槽降生", "先知約拿被大魚吞沒", "埃及十災", "該隱在田地裡面把亞伯殺掉", "羅得的妻子變成鹽柱",
+			"耶穌被釘在十字架", "施洗約翰為耶穌施洗", "耶利哥城牆倒塌", "保羅往大馬士革的路上遇見主", "雅各和神摔角"];
+
+		window.addEventListener('DOMContentLoaded',function () {
+			document.getElementById("content_bar").innerText = alldata[Math.floor(Math.random()*21)];
+		});
+		
+	</script>
+</body>
+</html>
